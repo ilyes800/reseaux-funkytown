@@ -1,31 +1,37 @@
 # Funkytown
 
-**Projet réseaux et systèmes · CESI · Deuxième année**
+**Réseaux et systèmes · CESI · Deuxième année**
 
 ## Objectif
 
-Concevoir et documenter une infrastructure réseau pour plusieurs sites d’une ville fictive. La maquette couvre une ESN, une bibliothèque, des entreprises et un datacenter, avec des besoins différents en connectivité et en services.
+Concevoir une infrastructure réseau adaptée à plusieurs sites d’une ville fictive : une ESN, une bibliothèque, des entreprises et un datacenter.
 
 ## Réalisation
 
-- Cartographie des équipements et définition du plan d’adressage IPv4.
-- Segmentation des usages avec des VLAN et routage inter-VLAN.
-- Configuration des services DHCP, DNS, FTP et de l’accès Web.
-- Mise en place de réseaux Wi-Fi d’entreprise et invités.
-- Utilisation de trunks, de VTP et d’EtherChannel.
-- Interconnexion IPv6 décrite dans les livrables.
-- Organisation du déploiement avec des plannings de Gantt et des diagrammes PERT.
+- Définition du plan d’adressage IP et des sous-réseaux.
+- Organisation du réseau en VLAN et mise en place du routage entre les réseaux.
+- Configuration de services DHCP, DNS, FTP et Web.
+- Intégration de réseaux Wi-Fi d’entreprise et invités.
+- Documentation de l’interconnexion et planification du déploiement.
 
-## Finalité du projet
+## Résultat présenté
 
-Construire une maquette cohérente, adaptée aux besoins de chaque site, et documenter les choix techniques pour faciliter l’administration du réseau. Le projet permet de relier les notions d’adressage, de commutation et de routage à une infrastructure simulée.
+Une maquette multisite sous Cisco Packet Tracer, accompagnée de livrables décrivant les choix d’architecture et l’organisation du déploiement. Elle permet d’explorer les sites, leurs équipements et les services associés.
 
-## Consulter la maquette
+[Découvrir la maquette Funkytown](https://github.com/ilyes800/reseaux-funkytown/releases/download/v1.0/maquette-funkytown.pka)
 
-[Télécharger la maquette Funkytown](https://github.com/ilyes800/reseaux-funkytown/releases/download/v1.0/maquette-funkytown.pka)
+Le fichier s’ouvre dans une version compatible de **Cisco Packet Tracer**. Il s’agit de la maquette pédagogique d’origine, sans nouvelle exécution pour cette présentation.
 
-Ouvrir le fichier `.pka` dans une version compatible de **Cisco Packet Tracer**, puis explorer les différents sites et leurs équipements.
+## Compétences acquises
 
-La maquette est fournie dans son état d’origine. Elle n’a pas été réexécutée pour cette présentation. Les livrables contiennent des configurations de laboratoire, dont certaines utilisent Telnet et des mots de passe pédagogiques ; un déploiement réel demanderait de les adapter.
+- Analyser les besoins de connectivité de plusieurs sites.
+- Concevoir un plan d’adressage et segmenter un réseau.
+- Mettre en relation commutation, routage et services réseau.
+- Documenter une architecture et expliquer ses choix techniques.
+- Planifier un déploiement à l’aide de Gantt et de PERT.
 
-[Mon profil](https://github.com/ilyes800)
+**Outils et notions :** Cisco Packet Tracer, IPv4/VLSM, VLAN, routage inter-VLAN, DHCP, DNS, Wi-Fi, trunks, VTP et EtherChannel. L’interconnexion IPv6 est décrite dans les livrables.
+
+*Les configurations sont destinées à un laboratoire pédagogique ; elles ne constituent pas un modèle de déploiement en production.*
+
+[Retour au profil et au CV](https://github.com/ilyes800)
